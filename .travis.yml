@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: fPTfA7GU/BgIbNlIiuua9ZlM8dG1Vorj0aHyQXQUd77cQKB7zRoLU6rXHMyhEelSM3EeN8twjBfFY+s6yOSd84FrmppBm7tYaBoUS7EC+jZ7vmlbfykC0AsyPYMVAbaCwxS9K2MSrGiOJYYOFSV+1tJHTczslkNDJ3Sttif7HhcCZNTsoIW3mWE0M6+ADg9/3rYGfOexsHScBX8F02kI7/drOZshiEGf3kEiVG0czsNJUVPsnVLECACLKjgV8v6/sAQLEGr3bLRTCox251NrJcNQYwXFotf7pEhXqLEtGC3xGvIlDOv71XSNs8LFLUIHNd+QZiP5wMi4PWii8yWf0eocwk5LBq5i+y5jG9C1/FkXYcHK+P5CzxheSp7K5jjwp3xcYnJxkYg9DQcDHEivLpZDRhHugbZWGFmfmW/tnFBaT2tEnK5kOBbRGPWz1Gy/v0rCY6TgYdESYsnTFxLS3OCWwAxQDMA6+YbK7Wo3+bT5oO2dHBdHwIq5rWYCBKzudrp6vf6HLw7B+n/jnruO6rZFsvP9eW0DkUi8M5e/sgm3PodBfHzNffFUycvTTWCrMA3JsHiIyOhm058Nuu+lYU52fZ86phBTbmyIUeEC66LPSWarz/e+0wylUUYuHItfP4R8tC2RqzvDxwYLcACjfBgw118zpEFySkrEiZfr28Y=
+  app: desolate-bastion-38007
+  on:
+    repo: synedra/node_deploy
